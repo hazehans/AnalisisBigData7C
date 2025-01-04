@@ -47,5 +47,15 @@ import warnings             # Untuk menghindari peringatan yang tidak relevan
    - Data yang digunakan diupload pada 2 bulan yang lalu (sekitar November 2024) berjumlah 32.834 dengan jumlah total 22 fitur, data yang diberikan tidak memiliki satupun duplikasi dan memiliki beberapa missing value
 3. Langkah import dan cleaning
    - Import saya lakukan dengan mendownload dulu data terkait dan menguploadnya ke dalam drive saya untuk akses yang lebih mudah
-   - Setelah import dilakukan, saya melakukan beberapa data cleaning antara berikut :
-     a. 
+   - Setelah import dilakukan beberapa cleaning saya lakukan dibawah ini
+   - Saya crosscheck informasi dataset yang digunakan beserta statistik deskriptifnya
+   - Setelah itu, saya mengkonversi beberapa kolom, seperti kolom `track_album_release_date` ke datetime dan `duration_ms` ke second yang awalnya milisecond dengan menyimpannya ke kolom baru `duration_sec`
+   - Kemudian saya drop kolom `duration_ms`
+   - Melakukan checking missing value dan menghapus setiap missing valuenya dari dataframe yang saya gunakan
+   - Untuk analisis lebih lanjut, saya juga menggabungkan fitur `playlist_genre` dan `playlist_sub_genre` dengan membuat fitur baru `playlist_full_genre` dan menghapus kedua fitur sebelumnya
+   - Saya juga membuat fitur baru `album_age` yang berisikan umur albumnya, berdasarkan hari ini (4 Januari 2025) dengan satuan float tahun dan tidak lupa drop fitur `track_album_release_date` 
+   ![image](https://github.com/user-attachments/assets/31808022-01eb-4e05-95b3-11a3c5e16e99)
+   - Berdasarkan data setelah cleaning yang saya lakukan, yang menjadi fokus saya untuk analisis ini adalah dalam fitur `danceability`, `energy`, `tempo`, dan `track_popularity`, akan tetapi, masih menggunakan fitur - fitur lain seperti yang ada di gambar untuk penjelasan lebih lanjut
+4. Eksplorasi data
+   - Beberapa penggabungan fitur sudah saya lakukan diatas dan beberapa hal menarik dapat saya temukan seperti berikut 
+
