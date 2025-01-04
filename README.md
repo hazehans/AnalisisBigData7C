@@ -22,19 +22,19 @@ import seaborn as sns       # Untuk visualisasi statistik
 import scipy.stats as stats  # Untuk analisis statistik
 import warnings             # Untuk menghindari peringatan yang tidak relevan
 ```
-Jika pandas tidak diimport:
-•	Error: NameError: name 'pd' is not defined
-•	Penjelasan: Error ini terjadi ketika mencoba menggunakan pd, tetapi pandas belum diimpor. 
-Jika numpy tidak diimport:
-•	Error: NameError: name 'np' is not defined
-•	Penjelasan: Error ini terjadi Ketika mencoba menggunakan np, tetapi numpy belum diimpor.
-Jika matplotlib.pyplot tidak diimpor:
-•	Error: ImportError: cannot import name 'pyplot' from 'matplotlib'
-•	Penjelasan: Jika tidak mengimpor matplotlib.pyplot, akan mendapatkan error ini saat mencoba menggunakan fungsi seperti plt.plot().
-Jika seaborn tidak diimpor:
-•	Error: ImportError: cannot import name 'seaborn'
-•	Penjelasan: Error ini terjadi ketika mencoba menggunakan seaborn tetapi paket ini belum diimpor.
-Jika scipy.stats tidak diimpor:
-•	Error: ImportError: cannot import name 'stats' from 'scipy'
-•	Penjelasan: Error ini muncul ketika mencoba menggunakan metode statistik dari scipy.stats, tetapi scipy belum diimpor dengan benar.
+1. Jika pandas tidak diimport:
+   - Error: NameError: name 'pd' is not defined
+   - Penjelasan: Error ini terjadi ketika mencoba menggunakan pd, tetapi pandas belum diimpor. 
+2. Jika numpy tidak diimport:
+   - Error: NameError: name 'np' is not defined
+   - Penjelasan: Error ini terjadi Ketika mencoba menggunakan np, tetapi numpy belum diimpor.
+3. Jika matplotlib.pyplot tidak diimpor:-
+   - Error: ImportError: cannot import name 'pyplot' from 'matplotlib'
+   - Penjelasan: Jika tidak mengimpor matplotlib.pyplot, akan mendapatkan error ini saat mencoba menggunakan fungsi seperti plt.plot().
+4. Jika seaborn tidak diimpor:
+   - Error: ImportError: cannot import name 'seaborn'
+   - Penjelasan: Error ini terjadi ketika mencoba menggunakan seaborn tetapi paket ini belum diimpor.
+5. Jika scipy.stats tidak diimpor:
+   - Error: ImportError: cannot import name 'stats' from 'scipy'
+   - Penjelasan: Error ini muncul ketika mencoba menggunakan metode statistik dari scipy.stats, tetapi scipy belum diimpor dengan benar.
 
