@@ -1,7 +1,7 @@
 # Underrated Chill and Calm Songs on Spotify
 Proyek Akhir Mata Kuliah Analisis Big Data yang diampuh oleh Pak Yuda Munarko S.Kom., M.Sc., Sekaligus sebagai portfolio 
 
-Pendahuluan 
+# Pendahuluan 
 1.	Latar Belakang
 Di era digital ini, layanan streaming musik seperti Spotify telah menjadi salah satu platform yang paling banyak digunakan oleh berbagai kalangan, termasuk mahsiswa, terlagi untuk menemani aktivitas sehari – hari. Dalam penggunaan Spotify, saya pribadi sering merasa bahwa terkadang musik dengan genre yang terlalu keras atau penuh energi tidak sesuai dengan kondisi saya, terutama sebagai mahasiswa semester akhir yang sering disibukkan dengan berbagai tugas dan pemikiran masa depan. Dalam hal ini, musik dengan suasana yang lebih tenang dan menangkan seperti lagu – lagu bernuansa “chill” dan “calm” menjadi pilihan yang lebih cocok
 Namun, masalah yang sering saya hadapi adalah sulitnya menemukan lagu – lagu dengan karakteristik ini di tengah banyaknya pilihan yang ada. Oleh karena itu, saya tertarik untuk mengangkat topik mengenai seleksi dan filter lagu – lagu dengan genre chill dan calm, sehingga dapat memberikan rekomendasi yang lebih baik sesuai dengan kebutuhan dan kondisi pengguna Spotify, terutama yang memiliki selera yang sama dengan saya dan juga bagi mereka yang mencari ketenangan dan relaksasi dalam musik.
@@ -11,7 +11,8 @@ Untuk menyelesaikan masalah ini, saya menggunakan data sekunder yang nanti saya 
 Untuk mencapai tujuan tersebut, saya menggunakakn teknik analisis sederhana eksplorasi data (EDA) yang mencakup visualisasi distribusi fitur – fitur utama seperti ‘danceability’, ‘energy’, ‘tempo’, dan ‘popularity’. Dengan menganalisis distribusi dan korelasi antar fitur tersebut, saya dapat menentukan batasan yagn tepat untuk mengklasifikasikan lagu – lagu yang cocok sebagai kategori chill dan calm. Setelah itu, teknik seleksi data digunakan untuk memilih lagu – lagu yang memenuhi kriteria tersebut.
 4.	Manfaat Analisis 
 Hasil analisis ini diharapkan dapat memberikan rekomendasi lagu yang lebih tepat kepada  pengguna Spotify yang mencari musik dengan suasana tenang dan menenangkan. Dengan memiliki daftar lagu chill dan calm yang terstruktur, pengguna dapat lebih mudah menemukan musik yang sesuai dengan mood atau kebutuhan mereka tanpa harus menghabiskan waktu lama dalam pencarian. Hal ii akan sangat bermanfaat bagi konsumen yang ingin menikmati pengalaman mendengarkan musik yang lebih relevan dengan kondisi mental mereka, terutama pada saat – saat yang membutuhkan ketenangan atau saat bekerja.
-Package yang diperlukan
+
+# Package yang diperlukan
 ```
 # Import package yang diperlukan
 import pandas as pd         # Untuk manipulasi dan analisis data
