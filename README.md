@@ -40,4 +40,12 @@ import warnings             # Untuk menghindari peringatan yang tidak relevan
 
 # Data Preparation
 1. Sumber Data :
-   Data
+   - Data merupakan data sekunder yang saya peroleh dari akun github `rfordatascience`
+   - [Download Disini](https://www.dropbox.com/sh/qj0ueimxot3ltbf/AACzMOHv7sZCJsj3ErjtOG7ya?dl=1)
+   - [Penjelasan](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md)
+2. Penjelasan data
+   - Data yang digunakan diupload pada 2 bulan yang lalu (sekitar November 2024) berjumlah 32.834 dengan jumlah total 22 fitur, data yang diberikan tidak memiliki satupun duplikasi dan memiliki beberapa missing value
+3. Langkah import dan cleaning
+   - Import saya lakukan dengan mendownload dulu data terkait dan menguploadnya ke dalam drive saya untuk akses yang lebih mudah
+   - Setelah import dilakukan, saya melakukan beberapa data cleaning antara berikut :
+     a. 
