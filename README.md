@@ -58,17 +58,17 @@ import warnings             # Untuk menghindari peringatan yang tidak relevan
    - Berdasarkan data setelah cleaning yang saya lakukan, yang menjadi fokus saya untuk analisis ini adalah dalam fitur `danceability`, `energy`, `tempo`, dan `track_popularity`, akan tetapi, masih menggunakan fitur - fitur lain seperti yang ada di gambar untuk penjelasan lebih lanjut
 4. Eksplorasi data
    - Beberapa penggabungan fitur sudah saya lakukan diatas dan beberapa hal menarik dapat saya temukan seperti berikut
-   ![image](https://github.com/user-attachments/assets/94b109e4-b546-4478-aef8-43fba3a072cf)
    - Ditunjukkan bahwa genre rnb - neo soul sangat dominan dalam hasil akhir analisis saya
+   ![image](https://github.com/user-attachments/assets/94b109e4-b546-4478-aef8-43fba3a072cf)
   
-    ![image](https://github.com/user-attachments/assets/6516d129-e684-43e1-ac60-7c5820d325a6)
    - Hasil visualisasi tempo lagu (dalam satuan BPM)
+   ![image](https://github.com/user-attachments/assets/6516d129-e684-43e1-ac60-7c5820d325a6)
 
-    ![image](https://github.com/user-attachments/assets/1107da59-276d-407e-9b62-45ba7bb1b968)
    - Hasil visualisasi durasi (dalam detik)
+   ![image](https://github.com/user-attachments/assets/1107da59-276d-407e-9b62-45ba7bb1b968)
 
-   ![image](https://github.com/user-attachments/assets/a966ad06-b070-43df-816c-0f75fcbf0c89)
    - rata - rata umur album dan rata - rata durasi lagu
+   ![image](https://github.com/user-attachments/assets/a966ad06-b070-43df-816c-0f75fcbf0c89)
 
 5. Rangkuman
 Pernyataan masalah :
